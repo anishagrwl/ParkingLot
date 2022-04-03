@@ -12,7 +12,7 @@ public class BuildParkingLot extends ParkingLotConfig {
         try {
             Integer sizeOfParkingLot = Integer.parseInt(implementationCommand[1]);
             List<Integer> creatParkingLot = new ArrayList<>();
-            for (int i = 1; i < sizeOfParkingLot; i++) {
+            for (int i = 1; i <= sizeOfParkingLot; i++) {
                 creatParkingLot.add(i);
             }
             remainingSlots = creatParkingLot;
