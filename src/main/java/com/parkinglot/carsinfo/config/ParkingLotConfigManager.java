@@ -1,6 +1,12 @@
 package com.parkinglot.carsinfo.config;
 
-import com.parkinglot.carsinfo.domain.*;
+import com.parkinglot.carsinfo.domain.BuildParkingLot;
+import com.parkinglot.carsinfo.domain.LeaveParkingLot;
+import com.parkinglot.carsinfo.domain.ParkingVehical;
+import com.parkinglot.carsinfo.domain.RegistratioNumberCarColor;
+import com.parkinglot.carsinfo.domain.SlotNumberCarColor;
+import com.parkinglot.carsinfo.domain.SlotNumberCarRegistration;
+import com.parkinglot.carsinfo.domain.StatusParkingLot;
 import com.parkinglot.carsinfo.exception.NotFoundException;
 
 public class ParkingLotConfigManager {
